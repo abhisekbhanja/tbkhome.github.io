@@ -1,0 +1,78 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.toggle-btn:focus{
+    outline: none;
+
+}
+
+.menu-link:hover{
+        background-color: steelblue;
+}
+
+
+
+
+
+.main{
+    background-color: rgb(59, 25, 83);
+    width: 100%;
+    height: 100vh;
+    padding-top: 122px;
+}
+
+
+iframe{
+    height:1954px;
+    width:1260px;
+}
+
+.form{
+    padding-top: 60px;
+}
+
+h4{
+    background-color: rgb(59, 25, 83); 
+}
+
+.inquery{
+    padding: 14px;
+}
+
+a:hover{
+    text-decoration: none;
+    outline: none;
+}
+
+.ftr{
+    font-size: 32px;
+}
+
+
+
+@media  (max-width: 768px) {
+
+    
+    
+    .nav-link:hover{
+        background-color:steelblue
+       
+    }
+    .main{
+        padding-top: 122px;
+    }
+
+    .mainn{
+        font-size:2rem;
+    }
+
+    p2{
+        font-size: 20px;
+    }
+
+    iframe{
+        width:374px;
+    }
+}
